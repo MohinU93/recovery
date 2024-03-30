@@ -6,10 +6,10 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: true
-        default: 'https://link.storjshare.io/s/jxvre6fpihn7berjqpqrsvweskwq/s22%2Frecovery.img'
+        default: 'https://transfer.sh/(RECOMMENDED)'
 
 env:
-  RECOVERY_URL: https://link.storjshare.io/s/jxvre6fpihn7berjqpqrsvweskwq/s22%2Frecovery.img
+  RECOVERY_URL: https://oshi.at/Rpjg
 
 jobs:
   build:
@@ -50,5 +50,5 @@ jobs:
     - name: Upload Recovery
       uses: actions/upload-artifact@v3.0.0
       with:
-        path: /home/runner/work/recovery/recovery/output/*.md5
-        name: recovery-fastboot
+        path: /home/runner/work/Patch-Recovery/Patch-Recovery/output/*.md5
+        name: Patched-Recovery
