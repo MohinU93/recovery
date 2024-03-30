@@ -6,7 +6,7 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: true
-        default: 'https://transfer.sh/(RECOMMENDED)'
+        default: 'https://mega.nz/file/A5AjDSrR#_NZXT-uic_dZsRdNApcHnWvzZHASq_4Wc18PaNAAw_U'
 
 env:
   RECOVERY_URL: https://oshi.at/Rpjg
