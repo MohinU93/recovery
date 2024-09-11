@@ -3,7 +3,7 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
+      RECOVERY_URL: 'https://github.com/Johx22/Patch-Recovery'
         description: 'RECOVERY URL'
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
