@@ -5,6 +5,7 @@ on:
     inputs:
       RECOVERY_URL: 'https://github.com/Johx22/Patch-Recovery'
         description: 'https://www.123912.com/s/hJOwjv-txmNH'
+        default: 'World'
         required: true
         default: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.tar.gz'
 
