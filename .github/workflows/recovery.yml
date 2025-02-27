@@ -1,10 +1,10 @@
 name: RECOVERY
 
 on:
-  workflow_dispatch: .
+  workflow_dispatch:
     inputs:
       RECOVERY_URL: 'https://github.com/Johx22/Patch-Recovery'
-        description: 'RECOVERY URL'
+        description: 'https://www.123912.com/s/hJOwjv-txmNH'
         required: true
         default: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.tar.gz'
 
