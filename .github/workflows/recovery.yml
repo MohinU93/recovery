@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       RECOVERY_URL: https://www.123912.com/s/hJOwjv-txmNH
-        description: RECOVERY_URL
+        description: 'RECOVERY_URL'
         default: 'World'
         required: true
         default: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.tar.gz'
