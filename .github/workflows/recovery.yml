@@ -3,11 +3,10 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL: 
-        description: 'RECOVERY_URL'
-        default: 'World'
+      RECOVERY_URL:
+        description: 'RECOVERY URL'
         required: true
-        default: 'https://www.123912.com/s/hJOwjv-txmNH'
+        default: 'https://transfer.sh/(RECOMMENDED)'
 
 env:
   RECOVERY_URL: https://oshi.at/Rpjg
